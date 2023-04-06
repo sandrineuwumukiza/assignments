@@ -1,0 +1,131 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+#container{
+    display: flex;
+   justify-content: center;
+   transform: translateY(20%);
+   box-shadow:0px 0px 15px 5px rgba(128, 128, 128, 0.199);
+   padding: 20px 0px;
+   width: 70%;
+  margin-left: 300px;
+}
+.box1{
+    background-color: rgba(225, 130, 13, 0.951);
+    width: 200px;
+    height: 55vh;
+ color: white;
+ border-radius: 10px 0px 0px 10px;
+}
+.box1 h1{  
+  padding: 18px 30px;
+  padding-bottom: 10px;
+}
+.box1 p{
+  padding: 20px 30px;
+  font-size: 10px;
+ 
+}
+.box1 button{
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 150px;
+    margin-top: 35px;
+    color: rgba(225, 130, 13, 0.951);
+    border: solid#fff;
+  }
+  .box2 button{
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 150px;
+    margin-top: 35px;
+    color: rgb(8, 113, 123);
+    border: solid#fff;
+  }
+  .box3 button{
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: 150px;
+    margin-top: 35px;
+    color: rgb(16, 72, 64);
+    border: solid#fff;
+  }
+.box2{
+    background-color:rgb(8, 113, 123);
+    width: 200px;
+    height:55vh;
+ color: white;
+}
+.box2 h1{  
+    padding: 18px 30px;
+    padding-bottom: 10px;
+  }
+  .box2 p{
+    padding: 20px 30px;
+    font-size: 10px;
+  }
+.box3{
+    background-color: rgb(16, 72, 64);
+    width: 200px;
+    height: 55vh;
+ color: white;
+}
+.box3 h1{  
+    padding: 18px 30px;
+    padding-bottom: 10px;
+  }
+  .box3 p{
+    padding: 20px 30px;
+    font-size: 10px;
+  }
+.circle{
+    background-color: rgba(100, 32, 0, 0.435);
+    width:9%;
+    height: 3vh;
+   border-radius: 50%;
+   margin-left: 30px;
+   margin-top: 30px;
+}
+.image img{
+    width:100%;
+    margin-left: 5px;
+}
+
+    @media screen and (max-width:360px) {
+      #container{
+          display: block;
+       margin-top: -150px;
+       margin-left: 40px;
+       justify-content: center;
+       margin-bottom: 100px;
+       width: 70%;
+       box-shadow:15px 15px 15px 5px rgba(128, 128, 128, 0.199);
+      }
+        .box1 {
+          width: 250px;
+       
+        border-radius: 10px 10px 0px 0px;
+        padding: 3px 5px;
+        }
+        .box2{
+          width: 250px;
+        margin-top: -30px;
+        padding: 3px 5px;
+        }
+        .box3{
+          width: 250px;
+   
+        margin-top: -30px;
+        padding: 3px 5px;
+        }
+        
+      }
+      
